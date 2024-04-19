@@ -1,1 +1,7 @@
-/*# sourceMappingURL=settings.css.map */
+body {
+  background: url(../images/bg.jpg) fixed;
+}
+
+h1 {
+  color: red;
+}/*# sourceMappingURL=settings.css.map */
