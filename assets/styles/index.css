@@ -41,6 +41,7 @@ header h1 {
   font-size: 5rem;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 200px;
 }
 header p {
   font-size: 1.2rem;
@@ -77,7 +78,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background: rgba(255, 255, 255, 0.212);
-  margin-top: 300px;
+  margin-top: 150px;
   font-family: "Inter-ExtraBold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
