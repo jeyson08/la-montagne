@@ -1,11 +1,22 @@
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(../fonts/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "MerriweatherLight";
+  src: url(../fonts/Merriweather-Light.ttf);
+}
 body {
   background: url(../images/bg.jpg) center fixed;
 }
 
 h1 {
   color: white;
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
 }
 
 p {
   color: white;
+  font-family: "MerriweatherLight", sans-serif;
 }/*# sourceMappingURL=settings.css.map */
