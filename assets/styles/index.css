@@ -11,13 +11,11 @@ body {
 }
 
 h1 {
-  color: white;
   font-family: "Inter-ExtraBold", sans-serif;
   letter-spacing: 5px;
 }
 
 p {
-  color: white;
   font-family: "MerriweatherLight", sans-serif;
 }
 
@@ -42,10 +40,12 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   margin-top: 200px;
+  color: white;
 }
 header p {
   font-size: 1.2rem;
   font-style: italic;
+  color: white;
 }
 header .circle-icon {
   display: -webkit-box;
@@ -126,4 +126,25 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+}
+
+section.story {
+  /* haut | droit | bas | gauche */
+  margin: -10px 15% 0 15%;
+  background-color: white;
+}
+section.story .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }/*# sourceMappingURL=index.css.map */

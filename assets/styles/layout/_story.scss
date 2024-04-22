@@ -1,0 +1,9 @@
+section.story {
+    /* haut | droit | bas | gauche */   
+    margin: -10px 15% 0 15%;
+    background-color: white;
+    .main {
+        @include centerChild;
+    }
+
+}
