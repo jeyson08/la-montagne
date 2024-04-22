@@ -35,7 +35,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 80vh;
+  height: 100vh;
 }
 header h1 {
   font-size: 5rem;
@@ -62,5 +62,67 @@ header .circle-icon {
   color: white;
   border: solid white 2px;
   border-radius: 120px;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+nav {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.212);
+  margin-top: 300px;
+  font-family: "Inter-ExtraBold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.8rem;
+  height: 100%;
+}
+nav ul:first-of-type {
+  width: 50%;
+  padding-left: 0px;
+}
+nav ul:first-of-type li:first-of-type {
+  background: rgb(218, 216, 216);
+}
+nav ul:first-of-type li:first-of-type a {
+  color: black;
+}
+nav ul:nth-of-type(2) {
+  width: 30%;
+  font-size: 1.6rem;
+  padding-left: 0px;
+  padding-right: 2%;
+}
+nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  height: 100%;
+  padding: 0 2%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=index.css.map */
