@@ -1,0 +1,16 @@
+header {
+    @include centerChild;
+    height: 80vh;
+
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-style: italic;
+    }
+}

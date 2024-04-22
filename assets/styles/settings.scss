@@ -2,14 +2,23 @@
 
 
 // mixins
-
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 // réglages généraux
 
 body {
-    background: url(../images/bg.jpg) fixed;
+    background: url(../images/bg.jpg) center fixed;
 }
 
 h1 {
-    color: red;
+    color: white;
+}
+
+p {
+    color: white;
 }

@@ -1,7 +1,11 @@
 body {
-  background: url(../images/bg.jpg) fixed;
+  background: url(../images/bg.jpg) center fixed;
 }
 
 h1 {
-  color: red;
+  color: white;
+}
+
+p {
+  color: white;
 }/*# sourceMappingURL=settings.css.map */
