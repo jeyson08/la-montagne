@@ -111,7 +111,7 @@ nav ul:first-of-type {
   padding-left: 0px;
 }
 nav ul:first-of-type li:first-of-type {
-  background: rgb(244, 242, 242);
+  background: rgb(218, 216, 216);
 }
 nav ul:first-of-type li:first-of-type a {
   color: black;
@@ -278,7 +278,7 @@ button {
 }
 
 section.form {
-  margin: 50px 15% 0 15%;
+  margin: 50px 15% 100px 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,6 +325,63 @@ form textarea {
 
 .contact {
   width: 50%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.contact p.titre {
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: grey;
+  width: 30%;
+}
+.contact .address, .contact .phone, .contact .email, .contact .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .address, .contact .phone, .contact .email {
+  border-bottom: 1px solid rgb(214, 211, 211);
+}
+.contact p.info {
+  color: rgb(164, 162, 162);
+  width: 70%;
+  padding: 0 10%;
+}
+.contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+  padding-right: 20%;
+}
+.contact ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+}
+.contact ul li a {
+  color: black;
+  font-size: 1.2rem;
 }
 
 input[type=submit] {

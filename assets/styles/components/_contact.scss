@@ -1,3 +1,57 @@
 .contact {
     width: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    p.titre {
+        font-family: "Inter-ExtraBold", sans-serif;
+        letter-spacing: 5px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: grey;
+        width: 30%;
+    }
+
+    .address, .phone, .email, .social {
+        display: flex;
+        padding: 0 5%;
+        align-items: center;
+    }
+
+    .address, .phone, .email {
+        border-bottom: 1px solid rgb(214, 211, 211);
+    }
+
+    p.info {
+        color: rgb(164, 162, 162);
+        width: 70%;
+        padding: 0 10%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        padding-right: 20%;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            border: 1px solid grey;
+            padding: 10px;
+            border-radius: 100px;
+            width: 30px;
+            height: 30px;
+
+            a {
+                color: black;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+    
 }
