@@ -135,7 +135,7 @@ section.story {
   /* haut | droit | bas | gauche */
   margin: -10px 15% 0 15%;
   background-color: white;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 section.story .main {
   display: -webkit-box;
@@ -151,6 +151,7 @@ section.story .main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   min-height: 1200px;
+  margin-bottom: 100px;
 }
 section.story .main h2 {
   font-size: 3.8rem;
@@ -195,6 +196,40 @@ section.story .main .img {
   width: 80%;
   height: 700px;
   margin-bottom: 50px;
+}
+section.story .choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 800px;
+}
+section.story .choice .left, section.story .choice .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid rgb(214, 211, 211);
+}
+section.story .choice .left {
+  border-right: 1px solid rgb(214, 211, 211);
+}
+section.story .choice .left .img {
+  background: url(../../../../la-montagne/assets/images/pic02.jpg);
+  width: 80%;
+  height: 300px;
+}
+section.story .choice .right .img {
+  background: url(../../../../la-montagne/assets/images/pic03.jpg);
+  width: 80%;
+  height: 300px;
 }
 
 button {

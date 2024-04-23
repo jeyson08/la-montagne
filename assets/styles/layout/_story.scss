@@ -2,11 +2,12 @@ section.story {
     /* haut | droit | bas | gauche */   
     margin: -10px 15% 0 15%;
     background-color: white;
-    padding: 100px 0;
+    padding-top: 100px;
     .main {
         @include centerChild;
         justify-content: space-around;
         min-height: 1200px;
+        margin-bottom: 100px;
 
         h2 {
             font-size: 3.8rem;
@@ -58,6 +59,32 @@ section.story {
             width: 80%;
             height: 700px;
             margin-bottom: 50px;
+        }
+    }
+
+    .choice {
+        display: flex;
+        min-height: 800px;
+        
+        .left, .right {
+            @include centerChild;
+            justify-content: space-around;
+            border-top: 1px solid rgb(214, 211, 211);
+        }
+
+        .left {
+            border-right: 1px solid rgb(214, 211, 211);
+        }
+
+        .left .img {
+            background: url(../../../../la-montagne/assets/images/pic02.jpg);
+            width: 80%;
+            height: 300px;
+        }
+        .right .img {
+            background: url(../../../../la-montagne/assets/images/pic03.jpg);
+            width: 80%;
+            height: 300px;
         }
     }
 
