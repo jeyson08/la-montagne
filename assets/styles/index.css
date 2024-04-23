@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Inter-ExtraBold";
   src: url(../fonts/Inter-ExtraBold.ttf);
@@ -15,6 +16,11 @@ h1 {
   letter-spacing: 5px;
 }
 
+h2 {
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
+}
+
 p {
   font-family: "MerriweatherLight", sans-serif;
 }
@@ -23,9 +29,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -132,14 +135,12 @@ section.story {
   /* haut | droit | bas | gauche */
   margin: -10px 15% 0 15%;
   background-color: white;
+  padding: 100px 0;
 }
 section.story .main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -147,4 +148,62 @@ section.story .main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 1200px;
+}
+section.story .main h2 {
+  font-size: 3.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 200px;
+  color: black;
+  padding: 0 20%;
+  margin-top: 50px;
+}
+section.story .main p {
+  font-size: 1rem;
+  font-style: italic;
+  color: black;
+  padding: 0 20%;
+  text-align: center;
+  line-height: 3;
+  margin-bottom: 50px;
+}
+section.story .main p:first-of-type {
+  font-style: normal;
+  font-size: 1.4rem;
+  padding: 0;
+  position: relative;
+}
+section.story .main p:first-of-type::before, section.story .main p:first-of-type::after {
+  content: ""; /* Contenu vide pour le pseudo-élément */
+  position: absolute;
+  top: 50%; /* Position à la moitié de la hauteur du paragraphe */
+  width: 200%; /* Ou une largeur fixe selon le design que vous souhaitez */
+  height: 2px; /* Hauteur de la ligne */
+  background: rgba(191, 187, 187, 0.3960784314); /* Couleur de la ligne */
+}
+section.story .main p:first-of-type::before {
+  left: -250%; /* Positionnez à gauche du texte */
+}
+section.story .main p:first-of-type::after {
+  right: -250%; /* Positionnez à droite du texte */
+}
+section.story .main .img {
+  background: url(../../../assets/images/pic01.jpg) center/cover;
+  width: 80%;
+  height: 700px;
+  margin-bottom: 50px;
+}
+
+button {
+  font-family: "Inter-ExtraBold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  color: black;
+  background: white;
+  border: 2px solid black;
+  padding: 15px 30px;
 }/*# sourceMappingURL=index.css.map */

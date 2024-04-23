@@ -15,7 +15,7 @@
 // mixins
 @mixin centerChild {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -27,6 +27,11 @@ body {
 }
 
 h1 {
+    font-family: "Inter-ExtraBold", sans-serif;
+    letter-spacing: 5px;
+}
+
+h2 {
     font-family: "Inter-ExtraBold", sans-serif;
     letter-spacing: 5px;
 }
