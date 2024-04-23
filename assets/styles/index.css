@@ -202,7 +202,7 @@ section.story .main p:first-of-type::after {
   right: -250%; /* Positionnez à droite du texte */
 }
 section.story .main .img {
-  background: url(../../../../assets/images/pic01.jpg) center/cover;
+  background: url(../../assets/images/pic01.jpg) center/cover;
   width: 80%;
   height: 700px;
   margin-bottom: 50px;
@@ -232,12 +232,12 @@ section.story .choice .left {
   border-right: 1px solid rgb(214, 211, 211);
 }
 section.story .choice .left .img {
-  background: url(../../../assets/images/pic02.jpg) center/cover;
+  background: url(../../assets/images/pic02.jpg) center/cover;
   width: 80%;
   height: 400px;
 }
 section.story .choice .right .img {
-  background: url(../../../assets/images/pic03.jpg) center/cover;
+  background: url(../../assets/images/pic03.jpg) center/cover;
   width: 80%;
   height: 400px;
 }
