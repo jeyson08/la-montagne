@@ -20,6 +20,11 @@ h2 {
   letter-spacing: 5px;
 }
 
+h3 {
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
+}
+
 p {
   font-family: "MerriweatherLight", sans-serif;
 }/*# sourceMappingURL=settings.css.map */
