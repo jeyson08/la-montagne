@@ -27,4 +27,9 @@ h3 {
 
 p {
   font-family: "MerriweatherLight", sans-serif;
+}
+
+label {
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
 }/*# sourceMappingURL=settings.css.map */

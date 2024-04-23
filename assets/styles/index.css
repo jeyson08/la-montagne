@@ -30,6 +30,11 @@ p {
   font-family: "MerriweatherLight", sans-serif;
 }
 
+label {
+  font-family: "Inter-ExtraBold", sans-serif;
+  letter-spacing: 5px;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,4 +275,66 @@ button {
   background: white;
   border: 2px solid black;
   padding: 15px 30px;
+}
+
+section.form {
+  margin: 50px 15% 0 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgb(242, 241, 241);
+  min-height: 700px;
+}
+
+form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-right: 1px solid rgb(214, 211, 211);
+  padding: 50px 0;
+}
+form input, form textarea, form label {
+  margin: 0 5%;
+}
+form input:not([type=submit]) {
+  height: 50px;
+  margin-top: 5px;
+  background: rgb(242, 241, 241);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+form label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: grey;
+}
+form textarea {
+  resize: none;
+  background: rgb(242, 241, 241);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.contact {
+  width: 50%;
+}
+
+input[type=submit] {
+  font-family: "Inter-ExtraBold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  color: grey;
+  background: white;
+  border: 2px solid grey;
+  padding: 15px 30px;
+  width: 45%;
 }/*# sourceMappingURL=index.css.map */
