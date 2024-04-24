@@ -1,12 +1,17 @@
 section.story {
     /* haut | droit | bas | gauche */   
-    margin: -10px 15% 0 15%;
+    margin: 0 15% 0 15%;
     background-color: white;
     padding-top: 100px;
 
+    //petit ecran
+    @media screen and (max-width : 1400px) {
+        margin: 0 10% 0 10%;
+    }
+
     //tablette
     @media screen and (max-width : 870px) {
-        margin: -195px 3% 0 3%;
+        margin: 0 3% 0 3%;
     }
 
     .main {

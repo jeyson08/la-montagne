@@ -47,6 +47,10 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
 }
 header h1 {
   font-size: 5rem;
@@ -61,13 +65,13 @@ header h1 {
   }
 }
 header p {
+  text-align: center;
   font-size: 1.2rem;
   font-style: italic;
   color: white;
 }
 @media screen and (max-width: 870px) {
   header p {
-    text-align: center;
     padding: 0 20%;
   }
 }
@@ -102,10 +106,14 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   background: rgba(255, 255, 255, 0.212);
-  margin-top: 150px;
   font-family: "Inter-ExtraBold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+@media screen and (max-width: 1400px) {
+  nav {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 870px) {
   nav {
@@ -164,13 +172,18 @@ nav a {
 
 section.story {
   /* haut | droit | bas | gauche */
-  margin: -10px 15% 0 15%;
+  margin: 0 15% 0 15%;
   background-color: white;
   padding-top: 100px;
 }
+@media screen and (max-width: 1400px) {
+  section.story {
+    margin: 0 10% 0 10%;
+  }
+}
 @media screen and (max-width: 870px) {
   section.story {
-    margin: -195px 3% 0 3%;
+    margin: 0 3% 0 3%;
   }
 }
 section.story .main {

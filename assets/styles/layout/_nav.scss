@@ -4,10 +4,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0.212);
-    margin-top: 150px;
     font-family: "Inter-ExtraBold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+
+    //petit ecran
+    @media screen and (max-width : 1400px) {
+        width: 80%;
+    }
 
     //tablette
     @media screen and (max-width : 870px) {
