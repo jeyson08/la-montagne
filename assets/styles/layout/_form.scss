@@ -3,4 +3,10 @@ section.form {
     display: flex;
     background: rgb(242, 241, 241);
     min-height: 700px;
+
+
+    //tablette
+    @media screen and (max-width : 870px){
+        margin: 50px 3% 100px 3%;
+    }
 }

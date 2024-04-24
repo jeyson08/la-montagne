@@ -8,4 +8,10 @@ input[type="submit"] {
     border: 2px solid grey;
     padding: 15px 30px;
     width: 40%;
+
+
+    //tablette
+    @media screen and (max-width : 870px){
+        width: 60%;
+    }
 }

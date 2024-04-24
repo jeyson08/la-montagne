@@ -3,6 +3,12 @@ section.story {
     margin: -10px 15% 0 15%;
     background-color: white;
     padding-top: 100px;
+
+    //tablette
+    @media screen and (max-width : 870px) {
+        margin: -195px 3% 0 3%;
+    }
+
     .main {
         @include centerChild;
         justify-content: space-around;
@@ -44,14 +50,29 @@ section.story {
             width: 200%; /* Ou une largeur fixe selon le design que vous souhaitez */
             height: 2px; /* Hauteur de la ligne */
             background: #bfbbbb65; /* Couleur de la ligne */
+
+            //tablette
+            @media screen and (max-width : 870px){
+                width: 120%;
+            }
         }
 
         p:first-of-type::before {
             left: -250%; /* Positionnez à gauche du texte */
+
+            //tablette
+            @media screen and (max-width : 870px){
+                left: -150%;
+            }
           }
           
         p:first-of-type::after {
             right: -250%; /* Positionnez à droite du texte */
+
+            //tablette
+            @media screen and (max-width : 870px){
+                right: -150%;
+            }
           }
 
         .img {
@@ -76,18 +97,24 @@ section.story {
             border-right: 1px solid rgb(214, 211, 211);
         }
 
-        .left .img {
-            background: url(../../assets/images/pic02.jpg) center/cover;
+        .img {
             width: 80%;
             height: 400px;
+
+            //tablette
+            @media screen and (max-width : 870px){
+                height: 200px;
+            }
+        }
+
+        .left .img {
+            background: url(../../assets/images/pic02.jpg) center/cover;
         }
         .right .img {
             background: url(../../assets/images/pic03.jpg) center/cover;
-            width: 80%;
-            height: 400px;
         }
 
-        h3{
+        h3 {
             font-size: 1.4rem;
             text-align: center;
             text-transform: uppercase;
@@ -95,6 +122,11 @@ section.story {
             color: black;
             padding: 0 25%;
             margin-top: 0;
+
+            //tablette
+            @media screen and (max-width : 870px){
+                padding: 0 10%;
+            }
         }
 
         p {
@@ -104,6 +136,12 @@ section.story {
             padding: 0 10%;
             line-height: 3;
             margin-bottom: 50px;
+
+            //tablette
+            @media screen and (max-width : 870px){
+                font-size: 0.8rem;
+                margin-bottom: 20px;
+            }
         }
 
         p:first-of-type {
