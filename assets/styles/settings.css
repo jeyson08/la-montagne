@@ -9,6 +9,11 @@
 body {
   background: url(../images/bg.jpg) center fixed;
 }
+@media screen and (max-width: 870px) {
+  body {
+    background-attachment: scroll;
+  }
+}
 
 h1 {
   font-family: "Inter-ExtraBold", sans-serif;

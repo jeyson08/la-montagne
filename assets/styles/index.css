@@ -10,6 +10,11 @@
 body {
   background: url(../images/bg.jpg) center fixed;
 }
+@media screen and (max-width: 870px) {
+  body {
+    background-attachment: scroll;
+  }
+}
 
 h1 {
   font-family: "Inter-ExtraBold", sans-serif;
@@ -51,6 +56,11 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 870px) {
+  header {
+    height: 80vh;
+  }
 }
 header h1 {
   font-size: 5rem;

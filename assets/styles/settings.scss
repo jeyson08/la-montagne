@@ -24,6 +24,11 @@
 
 body {
     background: url(../images/bg.jpg) center fixed;
+
+    //tablette
+    @media screen and (max-width : 870px) {
+        background-attachment: scroll;
+    }
 }
 
 h1 {
